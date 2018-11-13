@@ -20,8 +20,21 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
+
+.blinky-dancer{
   border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+.hat-dancer{
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+
+.unicorn-dancer{
+  border:10px solid pink;
   border-radius:10px;
   position:absolute;
 }
