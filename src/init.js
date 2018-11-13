@@ -15,6 +15,7 @@ $(document).ready(function() {
      * A new object of the given type will be created and added
      * to the stage.
      */
+
     var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
     // var dancerMakerFunctionName = "makeBlinkyDancer";
 
@@ -25,7 +26,7 @@ $(document).ready(function() {
     // make a dancer with a random position
 
     var dancer = new dancerMakerFunction(
-    // each dancer is an instance of makeBlinkyDancer
+    // each dancer is an instance of make[type]Dancer
       $("body").height() * Math.random(),
       $("body").width() * Math.random(),
       Math.random() * 1000
