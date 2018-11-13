@@ -5,6 +5,7 @@ var makeUnicornDancer = function(top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
 
   this.$node.addClass('unicorn-dancer');
+  this.$node.html('<img src="https://media.giphy.com/media/OT75fxGjnLsaHRoEJ0/giphy.gif" />');
 
 };
 

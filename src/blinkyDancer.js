@@ -5,6 +5,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
 
   this.$node.addClass('blinky-dancer');
+  this.$node.html('<img src="https://media.giphy.com/media/4PUkqN8QQsaFIkqi8a/giphy.gif" />');
 };
 
 makeBlinkyDancer.prototype = Object.create(makeDancer.prototype);

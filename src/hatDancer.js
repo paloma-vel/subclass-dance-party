@@ -5,7 +5,7 @@ var makeHatDancer = function(top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
 
   this.$node.addClass('hat-dancer');
-
+  this.$node.html('<img src="https://media.giphy.com/media/cC9MHgpD4ZueFUHIN0/giphy.gif" />');
 };
 
 makeHatDancer.prototype = Object.create(makeDancer.prototype);
