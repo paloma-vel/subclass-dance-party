@@ -2,8 +2,9 @@ body, html{
   height:100%;
 }
 body{
+  background: url(cupcake_wallpaper.png) no-repeat fixed center;
+  background-size: 100%;
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -17,6 +18,7 @@ body, a:link, a:visited, a:active{
 .topbar{
   height:32px;
   background-color: #555;
+  display: flex;
 }
 .title{
   background-color: #777;
