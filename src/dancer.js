@@ -1,14 +1,12 @@
 // Creates and returns a new dancer object that can step
 var makeDancer = function(top, left, timeBetweenSteps) {
-  // this.top = top;
-  // this.left = left;
+debugger;
   this.timeBetweenSteps = timeBetweenSteps;
 
   // use jQuery to create an HTML <span> tag
   this.$node = $('<span class="dancer"></span>');
 
-  // I THINK that 'this' refers to the newly instantiated object
-  makeDancer.prototype.step.call(this);
+  this.step.call(this);
 
   this.setPosition(top, left);
 
