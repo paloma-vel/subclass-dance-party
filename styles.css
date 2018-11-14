@@ -15,6 +15,12 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+
+.line-up {
+  padding:5px 12px;
+  color: #F2E4DB!important;
+}
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -44,10 +50,40 @@ https://media.giphy.com/media/4PUkqN8QQsaFIkqi8a/giphy.gif
 /*
 https://media.giphy.com/media/cC9MHgpD4ZueFUHIN0/giphy.gif
 */
+/*  transform: translate(0px, 5px);*/
+}
+
+.hat-dancer:hover {
+  -webkit-animation-name: bounce;
+  @-webkit-keyframes bounce {
+  0%, 20%, 40%, 60%, 80%, 100% {-webkit-transform: translateY(0);}
+  50% {-webkit-transform: translateY(-5px);}
+  } 
 }
 
 .unicorn-dancer{
 /*
 https://media.giphy.com/media/OT75fxGjnLsaHRoEJ0/giphy.gif
 */
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
+
+  .unicorn-dancer:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  }
+
+@keyframes line-up {
+  0% {
+    left: ;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes bounce { 
+  0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-5px);}
+} 

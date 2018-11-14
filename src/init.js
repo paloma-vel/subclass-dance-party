@@ -33,4 +33,14 @@ $(document).ready(function() {
     );
     $('body').append(dancer.$node);
   });
+
+  $('.line-up').on('click', function(event) {
+    // grab all dancers and line them up on left side of screen
+
+    $('.dancer').css({
+    'animation': 'line-up 1s',
+    });
+  })
+
+
 });
